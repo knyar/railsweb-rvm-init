@@ -1,5 +1,5 @@
-unicorn init script for Debian
-==============================
+Debian init script for rails web servers
+========================================
 
 Yep, here comes another init script for rails-based web servers.
 
@@ -11,7 +11,7 @@ It allows you to:
 
 Usage:
 * copy `railsweb` to `/etc/init.d/`
+* enable it: `update-rc.d railsweb defaults`
 * create configuration files in `/etc/railsweb/` directory
 
 Licensed under MIT license.
-
